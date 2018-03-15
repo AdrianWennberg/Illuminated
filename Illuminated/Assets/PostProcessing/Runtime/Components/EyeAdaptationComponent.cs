@@ -14,6 +14,7 @@ namespace UnityEngine.PostProcessing
 
         ComputeShader m_EyeCompute;
         ComputeBuffer m_HistogramBuffer;
+        
 
         readonly RenderTexture[] m_AutoExposurePool = new RenderTexture[2];
         int m_AutoExposurePingPing;
